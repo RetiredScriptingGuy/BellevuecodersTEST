@@ -1,0 +1,37 @@
+# Learn Power Apps in 24 Hours
+### Enterprise & Government Edition
+Author: Kristopher R. White, CISSP, PMP  
+Bellevue Coders LLC
+
+---
+
+## Introduction
+
+Power Apps enables secure low-code application development
+within Microsoft 365 enterprise environments.
+
+---
+
+## Hour 1–3: Fundamentals
+
+### What is Power Apps?
+
+Power Apps is part of the Microsoft Power Platform.
+
+### Key Components
+
+- Canvas Apps
+- Model-driven Apps
+- Dataverse
+- Power Automate
+
+---
+
+## Example: Patch Function
+
+```powerfx
+Patch(
+   Employees,
+   Defaults(Employees),
+   { Name: TextInput1.Text }
+)
